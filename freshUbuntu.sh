@@ -33,3 +33,7 @@ apt install -y wine winetricks
 
 # Windows fonts
 apt install msttcorefonts -y
+
+#adding ping alias
+echo "alias p8=\"ping 8.8.8.8\"" >> ~/.bashrc
+
